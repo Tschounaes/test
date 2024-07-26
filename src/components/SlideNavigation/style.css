@@ -1,0 +1,25 @@
+html {
+  --navigation-transition-speed: 800ms;
+}
+
+.slide-navigation-wrapper--open {
+  transition: visibility 0s 0s;
+  @apply visible;
+}
+.slide-navigation-wrapper--closed {
+  transition: visibility 0s var(--navigation-transition-speed);
+  @apply invisible;
+}
+
+.slide-navigation-panel {
+  @apply origin-top-right;
+  transition: transform var(--navigation-transition-speed);
+}
+
+.slide-navigation-panel--open {
+  @apply rotate-0;
+}
+
+.slide-navigation-panel--closed {
+  @apply -rotate-90;
+}

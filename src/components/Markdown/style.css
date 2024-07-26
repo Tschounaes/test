@@ -1,0 +1,68 @@
+.markdown :where(p, ul, ol) {
+  @apply mb-4;
+}
+
+.markdown :where(ul, ol) {
+  list-style: disc;
+  @apply mx-8;
+}
+
+.markdown blockquote {
+  @apply italic;
+  @apply mb-4;
+  @apply mx-8;
+  @apply text-lg;
+  @apply opacity-50;
+}
+
+.markdown :where(h1, h2) {
+  @apply text-4xl;
+}
+.markdown :where(h3, h4) {
+  @apply text-2xl;
+}
+.markdown :where(h5, h6) {
+  @apply text-xl;
+}
+
+.markdown :where(h1, h3, h5) {
+  @apply font-bold;
+}
+
+.markdown :where(h1, h2, h3) {
+  @apply mt-12;
+  @apply mb-4;
+}
+
+.markdown :where(h4, h5, h6) {
+  @apply mt-8;
+  @apply mb-4;
+}
+
+.markdown * {
+  border-color: rgba(0, 0, 0, 0.25);
+}
+
+.markdown table {
+  @apply table-auto;
+  @apply border-collapse;
+  @apply border-2;
+  @apply w-full;
+  @apply mb-4;
+}
+
+.markdown :where(th, td) {
+  @apply border-collapse;
+  @apply border-2;
+  @apply p-2;
+}
+
+.markdown th {
+  text-align: start;
+}
+
+.markdown hr {
+  @apply mt-12;
+  @apply mb-4;
+  @apply border-t-2;
+}

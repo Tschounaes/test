@@ -1,0 +1,20 @@
+.animated-line {
+  border-top: 2px solid;
+  width: 0;
+  animation-name: expandLine;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes expandLine {
+  0% {
+    width: 0%;
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  100% {
+    width: 100%;
+  }
+}
