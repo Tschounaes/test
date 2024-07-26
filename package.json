@@ -1,7 +1,7 @@
 {
   "name": "hochzeit",
   "version": "0.1.0",
-  "homepage": "https://melanie-und-silas.github.io/hochzeit",
+  "homepage": "https://tschounaes.github.io/test",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
